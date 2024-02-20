@@ -1,0 +1,51 @@
+fieldset {
+    width: 40%;
+    border-radius: 10px;
+    border: 3px solid red;
+}
+
+legend {
+    font-weight: bolder;
+    font-size: 2rem;
+    color: red;
+}
+
+label {
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+
+input[type="submit"]{
+    color: black;
+    width : 100px;
+    padding : 10px;
+    border : 2px solid tomato;
+    border-radius : 10px;
+    font-weight : bolder;
+    font-size : 15px;
+    cursor : pointer;
+    transition : .6s
+}
+
+
+input[type="submit"]:hover {
+    background-color: tomato;
+    color: white;
+    border: none;
+    transform: scale(1.1);
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+input[type="password"]{
+    padding: 5px;
+    width: 110%;
+    border: 2px solid blue;
+    border-radius: 5px;
+}
+
+::placeholder {
+    font-weight: bolder;
+    color: green;
+}
